@@ -1,0 +1,73 @@
+.service-icon-list
+  display grid
+  grid-template-columns 50% 50%
+
+  .service-icon
+    flex-grow 1
+    display flex
+    flex-direction column
+    position relative
+    z-index 1
+
+    p
+      font-size 1rem
+      text-align center
+      color #9FA3A6
+      text-shadow 1px 1px 2px rgba(237,28,36,0.1)
+
+    .icon
+      display flex
+      align-content center
+      justify-content center
+      border-radius 50%
+      box-shadow 0 10px 10px rgba(0,0,0,0.16)
+      align-self center
+      width 6em
+      height 6em
+      transition all 200ms cubic-bezier(.57,.21,.69,0.65)
+      position relative
+      z-index 9
+      &:hover
+        transform scale(1.1)
+        box-shadow 0 10px 10px rgba(237, 28, 36,0.16)
+
+      svg
+        width 25px
+        height auto
+
+.service-icon:before
+.service-icon:after
+  content ''
+  width 2em
+  border-bottom 1px solid transparent
+  box-shadow 0 3px 5px rgba(0,0,0,0.30)
+  position absolute
+  top 70%
+  z-index 1
+
+.service-icon:after 
+  left 100%
+
+.service-icon:before 
+  right 100%
+
+.service-icon:first-of-type:before
+.service-icon:last-of-type:after 
+  display none
+
+
+@media only screen and (min-width: 60em)
+  .service-icon-list
+    grid-template-columns 25% 25% 25% 25%
+
+    p
+      font-size 1.125rem
+
+  .service-icon:before
+  .service-icon:after
+    width 6em
+
+@media only screen and (max-width: 33em)
+
+  .pt-sm-0
+    padding-top 0px

@@ -1,0 +1,209 @@
+{ 
+ "bikes": [
+  {
+    "name": "fixie",
+    "description": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va.Et dolorem unde voluptatem odio suscipit ad occaecati ex est. Nostrum animi consequuntur suscipit molestiae error.Ut assumenda",
+    "color": "#E71D36",
+    "price": "75.550",
+    "biciImg": "https://pssbikes.com/bikes/fixie1.png",
+    "bg": "https://pssbikes.com/bike-bgd.jpg",
+    "iconItems": [
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 1",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 2",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 3",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 4",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      }
+    ],
+    "images": [
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
+    ]
+  },
+  {
+    "name": "grabel",
+    "description": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va.Et dolorem unde voluptatem odio suscipit ad occaecati ex est. Nostrum animi consequuntur suscipit molestiae error.Ut assumenda",
+    "color": "#13E8BA",
+    "price": "75.550",
+    "biciImg": "https://pssbikes.com/bikes/grabel1.png",
+    "bg": "https://pssbikes.com/bike-bgd2.jpg",
+    "iconItems": [
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 1",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 2",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 3",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 4",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      }
+    ],
+    "images": [
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
+    ]
+  },
+  {
+    "name": "speed",
+    "description": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va.Et dolorem unde voluptatem odio suscipit ad occaecati ex est. Nostrum animi consequuntur suscipit molestiae error.Ut assumenda",
+    "color": "#0575A8",
+    "price": "75.550",
+    "biciImg": "https://pssbikes.com/bikes/single1.png",
+    "bg": "https://pssbikes.com/bike-bgd.jpg",
+    "iconItems": [
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 1",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 2",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 3",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 4",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      }
+    ],
+    "images": [
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
+    ]
+  },
+  {
+    "name": "pep-e",
+    "description": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va.Et dolorem unde voluptatem odio suscipit ad occaecati ex est. Nostrum animi consequuntur suscipit molestiae error.Ut assumenda",
+    "color": "#82a1b1",
+    "price": "75.550",
+    "biciImg": "https://pssbikes.com/bikes/pepe1.png",
+    "bg": "https://pssbikes.com/bike-bgd.jpg",
+    "iconItems": [
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 1",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 2",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 3",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 4",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      }
+    ],
+    "images": [
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
+    ]
+  },
+  {
+    "name": "sofia",
+    "description": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va.Et dolorem unde voluptatem odio suscipit ad occaecati ex est. Nostrum animi consequuntur suscipit molestiae error.Ut assumenda",
+    "color": "#B57EDC",
+    "price": "75.550",
+    "biciImg": "https://pssbikes.com/bikes/sofia1.png",
+    "bg": "https://pssbikes.com/bike-bgd.jpg",
+    "iconItems": [
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 1",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 2",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 3",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      },
+      {
+        "icon": "https://pssbikes.com/bike.svg",
+        "title": "Lorem Lorem ipsun 4",
+        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
+      }
+    ],
+    "images": [
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
+      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
+    ]
+  }
+],
+  "pss": {
+    "title": "PSS",
+    "color": "#B57EDC",
+    "img": "https://pssbikes.com/bikes/pss.png"
+  }
+}

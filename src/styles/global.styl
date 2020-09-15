@@ -1,0 +1,59 @@
+@import url("https://use.typekit.net/fgw6hvd.css")
+
+color-primary = #ED1C24
+color-dark = #1A1A1A
+color-light = #F2F2F2
+color-gray = #636A73
+
+
+*
+  font-family industry, sans-serif
+
+body 
+  margin 0px
+  height 100%
+
+#gatsby-focus-wrapper
+  overflow hidden
+  height 100%
+
+.container
+  width 100% !important
+  max-width 90% !important
+
+
+/* TEMPLATE */
+.btn
+  background transparent
+  border none
+  border-radius 5px
+  cursor pointer
+  padding 0.6em 2em
+  font-size 0.9rem
+  font-weight 600
+  box-shadow 0 3px 6px rgba(0,0,0,0.16)
+
+  &.btn-medium
+    padding 0.3em 2em
+    font-size 0.9rem
+  
+.btn-primary
+  background-color color-primary
+
+.btn-dark-gray
+  background-color color-gray
+  color color-light
+
+.content-right
+  position absolute
+  right -40%
+  top 90%
+
+@media only screen and (min-width:33.75em)
+  .content-right
+    right 5%
+    top 5%
+
+  .btn
+    padding 0.6em 2em
+    font-size 1.1rem

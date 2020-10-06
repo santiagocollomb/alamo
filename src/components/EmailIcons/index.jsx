@@ -15,7 +15,7 @@ export default function EmailIcons(props) {
       <div className="icon">
         <a href="http://" target="_blank" rel="noopener noreferrer">
           <Phone />
-          <span>+549 298-4862-631</span>
+          <span>+549 298-4692-132</span>
         </a>
       </div>
     </div>

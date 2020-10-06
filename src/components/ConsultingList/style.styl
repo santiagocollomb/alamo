@@ -1,19 +1,48 @@
 .consulting-item
-  .title
-    font-size calc(1.2em + 1vw)
-    text-align center
+  display flex
+
+  .consulting-item-decoration
+    display flex
+    flex-direction column
+    align-items center
+    padding-right 3rem
+
+    .circle
+      border-radius 100%
+      background-color #636A73
+      margin-bottom 1em
+      width 1.25rem
+      height 1.25rem
+    
+    .line
+      width 1px
+      flex 1
+      background-color #1A1A1A
+  &:last-child
+    .line
+      opacity 0
+
+  .consulting-item-text
+
+    .title
+      font-size calc(1em + 1vw)
+      margin-top 0
+      text-align left
+    
   
   p
     font-size calc(0.7em + 1vw)
-    text-align center
 
 
 @media only screen and (min-width:60em)
-  .consulting-item
-    .title
-      font-size calc(0.6em + 1vw)
-      text-align left
-    
-    p
-      font-size calc(0.05em + 1vw)
-      text-align left
+    .consulting-item
+      .consulting-item-text
+        .title
+          font-size calc(0.6em + 1vw)
+          text-align left
+          width 100%
+        
+        p
+          font-size calc(0.05em + 1vw)
+          text-align left
+          width 100%

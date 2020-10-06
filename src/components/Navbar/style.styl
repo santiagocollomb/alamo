@@ -1,24 +1,52 @@
-nav 
+.navbar 
+  position fixed
+  top 0
   display flex
   width 100%
-  background transparent
-  position absolute
+  background #fff
+  z-index 999
   box-shadow 0px 3px 6px rgba(0,0,0,0.16)
-
+  transform translateY(0px)
+  transition all 200ms cubic-bezier(.57,.21,.69,0.65)
   .col-12
     display flex
 
   .logo
-    width 30%
+    width 32%
     height auto
     display flex
-    align-content center
-    padding 1em 0
+    align-self center
+    justify-self center
+    padding-bottom 0
+    
+
+    svg
+      width: 100%;
+
+  .nav-content-right
+    margin-left auto
+    display inline-block
+
+    ul
+      display flex
+      column-gap 1.2em
+      margin 0
+      height 100%
+
+      li
+        list-style none
+        display flex
+        align-self center
+        a
+          font-weight 300
+          text-decoration none
+          transition font-weight 300ms cubic-bezier(.57,.21,.69,0.65)
+          &:hover
+          &:active
+            font-weight 600
 
   .menu-icon
-    display inline-block
     cursor pointer
-    margin-left auto
     padding 1em 0
 
   .bar1 
@@ -53,7 +81,11 @@ nav
     -webkit-transform rotate(45deg) translate(-8px, -8px)
     transform rotate(45deg) translate(-8px, -8px) 
 
+.navbar-hidden
+  transform translateY(-10em)
 
 @media only screen and (min-width:33.75em)
-  .logo
-    width 10%
+  .navbar 
+    .logo
+      width 12%
+      padding 0.5em 0

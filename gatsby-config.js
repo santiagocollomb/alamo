@@ -6,9 +6,14 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    siteUrl: `https://www.alamoingenieria.com.ar`,
+  },
   plugins: [
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-stylus`,
+    `gatsby-plugin-scroll-reveal`,
+    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

@@ -14,15 +14,19 @@ export default function ConsultingList() {
       text:
         "Análisis de condiciones de operación del componente, relevamiento dimensional, análisis de tensiones, caracterización de materiales y estudio de fallas.",
     },
-    { title: "Cursos de capacitación", text: "Ofrecemos una serie de cursos de capacitación sobre temas relacionados a los aceros, propiedades mecánicas y mecánica de fractura. El alcance y temario de los mismos se adapta de acuerdo al alcance y disponibilidad horaria que el cliente requiera." }
+    { title: "Cursos de capacitación", text: "Ofrecemos una serie de cursos de capacitación sobre temas relacionados a los aceros, propiedades mecánicas y mecánica de fractura. El alcance y temario de los mismos se adapta al alcance y disponibilidad horaria que el cliente requiera." }
   ]
 
   const consultingItems = items.map(item => (
-    <div className="consulting-item" key={item.title}>
-      <h2 className="title mb-0">{item.title}</h2>
-      <p>
-        {item.text}
-      </p>
+    <div className="consulting-item mt-4" key={item.title}>
+      <div className="consulting-item-decoration">
+        <div className="circle"></div>
+        <div className="line"></div>
+      </div>
+      <div className="consulting-item-text">
+        <h2 className="title mb-0">{item.title}</h2>
+        <p className="mt-0">{item.text}</p>
+      </div>
     </div>
   ))
 

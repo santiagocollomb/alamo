@@ -6,7 +6,6 @@ export default function ImgRoundbg(props) {
     <div
       className="round-bkg"
       data-sal="fade"
-      data-sal-delay="300"
       data-sal-easing="ease"
     >
       {props.children}

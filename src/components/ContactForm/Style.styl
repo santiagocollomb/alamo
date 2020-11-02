@@ -7,5 +7,18 @@
     color #fff
     padding-bottom 10px
 
+    &:-webkit-autofill
+    &:-internal-autofill-selected
+      background transparent !important
+
     &::placeholder
       color #fff
+
+    &:focus
+      outline none
+      color #1A1A1A
+      border-bottom 3px solid #1A1A1A
+
+      &::placeholder
+        color #1A1A1A
+        font-weight 600

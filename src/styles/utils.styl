@@ -32,7 +32,7 @@ color-gray = #9FA3A6
 .bg-white
   background-color #fff
   position relative
-  z-index 9
+  z-index 99
 
 .flex-column
   display flex
@@ -55,6 +55,13 @@ color-gray = #9FA3A6
 
 .d-sm-none
   display none
+
+.red-line
+  width 10%
+  margin 0
+  height 0px
+  background transparent
+  border none
 
 // TEXT
 .title
@@ -331,9 +338,9 @@ h3.subtitle
       width fit-content
       margin 0px
 
-.red-line
-  width 10%
-  margin 0
-  height 8px
-  background #ed1c24
-  border none
+  .red-line
+    width 10%
+    margin 0
+    height 8px
+    background #ed1c24
+    border none

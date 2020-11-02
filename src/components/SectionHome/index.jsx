@@ -1,11 +1,15 @@
 import React from "react"
+import scrollTo from "gatsby-plugin-smoothscroll"
 import A from "../../assets/a.svg"
 import Media from "react-media"
+import content from '../../content/data.json'
+
+
 import "./style.styl"
 
 import ContactIcons from "../ContactIcons/index"
 
-export default function SectionHome() {
+export default function SectionHome({lang}) {
 
   return (
     <section id="inicio" className="section-full pb-0">
@@ -16,25 +20,17 @@ export default function SectionHome() {
             <h1
               data-sal="slide-up"
               data-sal-easing="ease"
-              className="title mb-0 mt-5 title-home"
+              className="title mb-0 mt-4 title-home"
             >
-              Especialistas en tratamientos térmicos
+              {content[lang].home.title}
             </h1>
-            <h2
-              data-sal="slide-up"
-              data-sal-easing="ease"
-              data-sal-delay="100"
-              className="subtitle"
-            >
-              Somos del Alto Valle de Río Negro y Neuquén
-            </h2>
             <button
+              onClick={() => scrollTo("#conocenos")}
               data-sal="slide-up"
               data-sal-easing="ease"
-              data-sal-delay="150"
               className="btn btn-primary mt-5"
             >
-              Conocé más
+              {content[lang].home.button}
             </button>
             <Media
               query="(min-width: 1120px)"

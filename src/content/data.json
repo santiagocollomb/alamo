@@ -1,209 +1,143 @@
 { 
- "bikes": [
-  {
-    "name": "fixie",
-    "description": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va.Et dolorem unde voluptatem odio suscipit ad occaecati ex est. Nostrum animi consequuntur suscipit molestiae error.Ut assumenda",
-    "color": "#E71D36",
-    "price": "75.550",
-    "biciImg": "https://pssbikes.com/bikes/fixie1.png",
-    "bg": "https://pssbikes.com/bike-bgd.jpg",
-    "iconItems": [
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 1",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 2",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 3",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 4",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      }
-    ],
-    "images": [
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
+ "es": {
+   "nav": {
+     "about": "Conocenos",
+     "services": "Servicios",
+     "consulting": "Consultoría",
+     "contact": "Contacto"
+   },
+   "home": {
+     "title": "Empresa Rionegrina de tratamientos térmicos",
+     "subtitle": "Somos del Alto Valle de Río Negro y Neuquén",
+     "button": "Conocé más"
+   },
+   "about": {
+     "span": "CONOCENOS",
+     "title": "Somos Alamo",
+     "subtitle": "Trabajamos para brindarte calidad y confianza",
+     "text": "Una empresa joven radicada en el Alto Valle de Río Negro. Nuestro principal objetivo es acompañarte en el mejoramiento de la calidad de tus productos, enfocándonos siempre en favorecer un entorno de desarrollo mutuo junto con clientes y proveedores.",
+      "button": "Hablemos"
+   },
+   "services": {
+     "span": "NUESTROS SERVICIOS",
+     "title": "Tratamientos térmicos",
+     "text": "Por medio de la aplicación de los tratamientos térmicos se logran los cambios deseados en la estructura y las propiedades de los aceros. Pueden emplearse varios tipos de tratamientos para cumplir con los requisitos de diseño de resistencia mecánica, corrosión, desgaste y más.",
+     "service1": "Alivio de tensiones",
+     "service2": "Normalizado",
+     "service3": "Recocido",
+     "service4": "Temple y revenido"
+   },
+   "oven": {
+    "title": "Características del horno",
+    "features": [
+      "Capacidad de cámara [mm]: 300x150x300.",
+      "Temperatura máxima [°C]: 1100.",
+      "Control de temperatura integrado. Permite fijar hasta diez valores de temperatura, velocidad de calentamiento y tiempo de mantenimiento para cada temperatura.",
+      "Termocupla tipo K. Certificación INTI a trés temperaturas (650°C, 775°C y 900°C)"
     ]
-  },
-  {
-    "name": "grabel",
-    "description": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va.Et dolorem unde voluptatem odio suscipit ad occaecati ex est. Nostrum animi consequuntur suscipit molestiae error.Ut assumenda",
-    "color": "#13E8BA",
-    "price": "75.550",
-    "biciImg": "https://pssbikes.com/bikes/grabel1.png",
-    "bg": "https://pssbikes.com/bike-bgd2.jpg",
-    "iconItems": [
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 1",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 2",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 3",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 4",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      }
-    ],
-    "images": [
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
-    ]
-  },
-  {
-    "name": "speed",
-    "description": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va.Et dolorem unde voluptatem odio suscipit ad occaecati ex est. Nostrum animi consequuntur suscipit molestiae error.Ut assumenda",
-    "color": "#0575A8",
-    "price": "75.550",
-    "biciImg": "https://pssbikes.com/bikes/single1.png",
-    "bg": "https://pssbikes.com/bike-bgd.jpg",
-    "iconItems": [
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 1",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 2",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 3",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 4",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      }
-    ],
-    "images": [
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
-    ]
-  },
-  {
-    "name": "pep-e",
-    "description": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va.Et dolorem unde voluptatem odio suscipit ad occaecati ex est. Nostrum animi consequuntur suscipit molestiae error.Ut assumenda",
-    "color": "#82a1b1",
-    "price": "75.550",
-    "biciImg": "https://pssbikes.com/bikes/pepe1.png",
-    "bg": "https://pssbikes.com/bike-bgd.jpg",
-    "iconItems": [
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 1",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 2",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 3",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 4",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      }
-    ],
-    "images": [
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
-    ]
-  },
-  {
-    "name": "sofia",
-    "description": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va.Et dolorem unde voluptatem odio suscipit ad occaecati ex est. Nostrum animi consequuntur suscipit molestiae error.Ut assumenda",
-    "color": "#B57EDC",
-    "price": "75.550",
-    "biciImg": "https://pssbikes.com/bikes/sofia1.png",
-    "bg": "https://pssbikes.com/bike-bgd.jpg",
-    "iconItems": [
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 1",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 2",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 3",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      },
-      {
-        "icon": "https://pssbikes.com/bike.svg",
-        "title": "Lorem Lorem ipsun 4",
-        "text": "Lorem ipsun dolor sit amet fae des doles coasa en latin ahre va"
-      }
-    ],
-    "images": [
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-      "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
-    ]
-  }
-],
-  "pss": {
-    "title": "PSS",
-    "color": "#B57EDC",
-    "img": "https://pssbikes.com/bikes/pss.png"
-  }
+   },
+   "consulting": {
+     "span": "NUESTROS SERVICIOS",
+     "title": "Consultoría y capacitaciones",
+     "button": "Contactanos",
+     "consultingItems": [
+        {
+          "title": "Caracterización de aceros",
+          "text": "Por medio de determinación de composición química y ensayos mecánicos. Buscamos determinar el tipo y grado del material, ya sea para verificar su conformidad con una especificación o norma específica; o bien en el contexto de una re-ingeniería de componente."
+        },
+        {
+          "title": "Asesoramiento en rediseño de piezas",
+          "text": "Análisis de condiciones de operación del componente, relevamiento dimensional, análisis de tensiones, caracterización de materiales y estudio de fallas."
+        },
+        { 
+          "title": "Cursos de capacitación", 
+          "text": "Ofrecemos una serie de cursos de capacitación sobre temas relacionados a los aceros, propiedades mecánicas y mecánica de fractura. El alcance y temario de los mismos se adapta al alcance y disponibilidad horaria que el cliente requiera." 
+        }
+     ]
+   },
+   "contact": {
+     "title": "Ponete en contacto",
+     "subtitle": "Te vamos a responder lo antes posible"
+   },
+   "contactform": {
+     "name": "Nombre",
+     "subject": "Asunto",
+     "email": "Email",
+     "message": "Mensaje",
+     "button": "Enviar",
+     "messageSent": "El mensaje fue enviado. Te responderemos lo antes posible",
+     "messageNotSent": "Hubo un error al enviar el mensaje. Intentalo de nuevo más tarde"
+   }
+ },
+ "en": {
+   "nav": {
+     "about": "About Us",
+     "services": "Services",
+     "consulting": "Consulting",
+     "contact": "Contact"
+   },
+   "home": {
+     "title": "Heat treatments company from Patagonia",
+     "subtitle": "Somos del Alto Valle de Río Negro y Neuquén",
+     "button": "Know more"
+   },
+   "about": {
+     "span": "ABOUT US",
+     "title": "We are Alamo",
+     "subtitle": "We work to ensure you quality and trust",
+     "text": "A young company based in Alto Valle, Rio Negro. Our main objective is to help you in improving the quality of your products, always focusing on favoring an environment of mutual development together with clients and suppliers.",
+      "button": "Let's talk"
+   },
+   "services": {
+     "span": "OUR SERVICES",
+     "title": "Heat treatments",
+     "text": "Through the application of heat treatments, the desired changes in the structure and properties of the steels are achieved. Various types of treatments can be employed to meet design requirements for mechanical strength, corrosion, wear and more.",
+     "service1": "Stress relief",
+     "service2": "Normalization",
+     "service3": "Annealing",
+     "service4": "Quenching and tempering"
+   },
+    "oven": {
+      "title": "Oven features",
+      "features": [
+        "Chamber capacity [mm]: 300x150x300.",
+        "Maximum temperature [°C]: 1100.",
+        "Integrated temperature control. Allows you to set up to ten temperature values, heating rate and holding time for each temperature.",
+        "Type K thermocouple. INTI certification at three temperatures (650 ° C, 775 ° C and 900 ° C)."
+      ]
+   },
+   "consulting": {
+     "span": "OUR SERVICIES",
+     "title": "Consulting and training",
+     "button": "Contact us",
+     "consultingItems": [
+        {
+          "title": "Characterization of steels",
+          "text": "Through chemical composition determination and mechanical testing. We seek to determine the type and grade of the material, either to verify its conformity with a specific specification or standard; or in the context of a component re-engineering."
+        },
+        {
+          "title": "Advice on redesign of parts",
+          "text": "Analysis of component operating conditions, dimensional survey, stress analysis, material characterization and failure analysis."
+        },
+        { 
+          "title": "Courses and trainings", 
+          "text": "We offer a series of training courses on topics related to steels, mechanical properties and fracture mechanics. The scope and agenda of the same is adapted to the scope and time availability that the client requires." 
+        }
+     ]
+   },
+   "contact": {
+     "title": "Get in touch",
+     "subtitle": "We'll answer as soon as posible"
+   },
+   "contactform": {
+     "name": "Name",
+     "subject": "Subject",
+     "email": "Email",
+     "message": "Message",
+     "button": "Send",
+      "messageSent": "The message was sent. We will answer you as soon as possible",
+     "messageNotSent": "There was an error sending the message. Try again later"
+   }
+ }
+
 }

@@ -1,45 +1,39 @@
 import React from "react"
+import scrollTo from "gatsby-plugin-smoothscroll"
 import work from "./work1.jpg"
+import content from "../../content/data.json"
+
 import "./style.styl"
 
-export default function SectionHome() {
+export default function SectionHome({lang}) {
   return (
     <section id="conocenos" className="section-full bg-black section-shadow">
       <div className="container h-100">
         <div className="row h-100">
           <div className="col-6 h-100 flex-column justify-center align-center">
-            <span className="page-label">CONOCENOS</span>
-            <h2 className="title mt-0 mb-0 text-white"> Somos Alamo </h2>
-            <h3
-              className="subtitle mt-0 mb-1"
-              data-sal="slide-up"
-              data-sal-easing="ease"
-            >
-              Trabajamos para brindarte calidad y confianza
-            </h3>
+            <span className="page-label">{content[lang].about.span}</span>
+            <h2 className="title mt-0 mb-0 text-white">
+              {content[lang].about.title}
+            </h2>
             <hr
               className="red-line"
               data-sal="slide-up"
               data-sal-easing="ease"
-              data-sal-delay="100"
             />
             <p
               className="mb-5 text-white"
               data-sal="slide-up"
               data-sal-easing="ease"
-              data-sal-delay="150"
             >
-              Nuestro principal objetivo es acompañarte en el mejoramiento de la
-              calidad de tus productos, enfocándonos siempre en favorecer un
-              entorno de desarrollo mutuo junto con clientes y proveedores.
+              {content[lang].about.text}
             </p>
             <button
+              onClick={() => scrollTo("#contacto")}
               className="btn btn-primary mb-6"
               data-sal="slide-up"
               data-sal-easing="ease"
-              data-sal-delay="200"
             >
-              Hablemos
+              {content[lang].about.button}
             </button>
           </div>
           <div

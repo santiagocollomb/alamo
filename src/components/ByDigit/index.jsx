@@ -9,7 +9,7 @@ export default function ByDigit() {
       rel="noopener noreferrer"
       className="digit"
     >
-      digit(estudio)
+      <span>digit(estudio)</span>
     </a>
   )
 }

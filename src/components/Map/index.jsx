@@ -39,7 +39,10 @@ class Map extends Component {
       // Important! Always set the container height explicitly
       <div style={{ height: "60vh", width: "100%" }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyAZlVWaUMcKuRc4MpN0hJEbFmHWsFW68ms", language: 'es' }}
+          bootstrapURLKeys={{
+            key: "AIzaSyAZlVWaUMcKuRc4MpN0hJEbFmHWsFW68ms",
+            language: "es",
+          }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
           options={googleMapStyles.mapStyle}
@@ -50,6 +53,7 @@ class Map extends Component {
             lat={-38.977467}
             lng={-67.835612}
             className="pulse"
+            role="button"
             onClick={() => this.handleToggleOpen()}
           />
         </GoogleMapReact>

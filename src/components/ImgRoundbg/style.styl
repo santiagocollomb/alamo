@@ -1,26 +1,25 @@
-.round-bg
+.round-bkg
   background-color #ED1C24
   width 80vw
   height 80vw
   box-shadow 0 3px 6px rgba(0,0,0,0.16)
   border-radius 50%
+  img
+    width 100%
+    position relative
+    right 5%
+    top 20%
+    filter drop-shadow(2px 4px 6px black)
+
+@media only screen and (min-width:60em)
+  .round-bkg
+    width 25vw
+    height 25vw
+    margin-left 10%
 
   .round-bkg
     img
       width 120%
       position relative
-      right 20%
-      top 5%
-      filter: drop-shadow(2px 4px 6px black);
-
-@media only screen and (min-width:60em)
-  .round-bg
-    width 25vw
-    height 25vw
-
-  .round-bkg
-    img
-      width 80%
-      position relative
-      left 10%
-      top -5%
+      right 35%
+      top 12%

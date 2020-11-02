@@ -1,10 +1,14 @@
 import React, { useState, useLayoutEffect } from "react"
+import { Link } from "gatsby"
+import scrollTo from "gatsby-plugin-smoothscroll"
 import Logo from '../../assets/logo.svg'
 import Media from "react-media"
 import classnames from "classnames"
+import content from "../../content/data.json"
+
 import './style.styl'
 
-function Navbar(deps) {
+function Navbar(props,deps) {
   const [, setScrollPosition] = useState(0)
   const [visible, setVisible] = useState(true)
   let previousScrollTop = 0
@@ -33,9 +37,7 @@ function Navbar(deps) {
 
   return (
     <nav
-      className={classnames("navbar", {
-        "navbar-hidden": !visible,
-      })}
+      className="navbar"
     >
       <div className="container">
         <div className="row">
@@ -51,16 +53,43 @@ function Navbar(deps) {
                 render={() => (
                   <ul>
                     <li>
-                      <a href="#conocenos">Conocenos</a>
+                      <button onClick={() => scrollTo("#conocenos")}>
+                        {content[props.lang].nav.about}
+                      </button>
                     </li>
                     <li>
-                      <a href="#servicios">Servicios</a>
+                      <button onClick={() => scrollTo("#servicios")}>
+                        {content[props.lang].nav.services}
+                      </button>
                     </li>
                     <li>
-                      <a href="#consultoria">Consultoría</a>
+                      <button onClick={() => scrollTo("#consultoria")}>
+                        {content[props.lang].nav.consulting}
+                      </button>
                     </li>
                     <li>
-                      <a href="#contacto">Contacto</a>
+                      <button onClick={() => scrollTo("#contacto")}>
+                        {content[props.lang].nav.contact}
+                      </button>
+                    </li>
+                    <li className="language-li">
+                      {props.lang === "es" ? (
+                        <Link
+                          to="/en"
+                          activeStyle={{ color: "red" }}
+                          className="language-btn"
+                        >
+                          En
+                        </Link>
+                      ) : (
+                        <Link
+                          to="/"
+                          activeStyle={{ color: "red" }}
+                          className="language-btn"
+                        >
+                          Es
+                        </Link>
+                      )}
                     </li>
                   </ul>
                 )}
@@ -69,7 +98,24 @@ function Navbar(deps) {
               <Media
                 query="(max-width: 599px)"
                 render={() => (
-                  <div className="menu-icon">
+                  <div className="language-li">
+                    {props.lang === "es" ? (
+                      <Link
+                        to="/en"
+                        activeStyle={{ color: "red" }}
+                        className="language-btn"
+                      >
+                        En
+                      </Link>
+                    ) : (
+                      <Link
+                        to="/"
+                        activeStyle={{ color: "red" }}
+                        className="language-btn"
+                      >
+                        Es
+                      </Link>
+                    )}
                   </div>
                 )}
               />

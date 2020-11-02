@@ -13,10 +13,11 @@ import Map from "../components/Map/index.jsx"
 export default function Home() {
   return (
     <>
-      <Layout lang="es">
+      <Layout lang="en">
+        
         <Helmet>
-          <title>Alamo ingeniería</title>
-          <meta name="title" content="Alamo ingeniería" />
+          <title>Alamo engineering</title>
+          <meta name="title" content="Alamo engineering" />
           <meta
             name="description"
             content="Somos specialistas en tratamientos térmicos, del Alto Valle de Río Negro y Neuquén"
@@ -49,16 +50,17 @@ export default function Home() {
             content="https://alamoingenieria.com.ar/og-image.jpg"
           ></meta>
         </Helmet>
-        <SectionHome lang="es" />
-        <SectionAbout lang="es" />
-        <SectionServices lang="es" />
-        <SectionOven lang="es" />
-        <SectionConsulting lang="es" />
-        <SectionContact lang="es" />
+        <SectionHome lang="en" />
+        <SectionAbout lang="en" />
+        <SectionServices lang="en" />
+        <SectionOven lang="en" />
+        <SectionConsulting lang="en" />
+        <SectionContact lang="en" />
 
         <section className="section-half pt-0 pb-0">
           <Map />
         </section>
+
       </Layout>
     </>
   )

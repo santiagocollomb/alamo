@@ -1,12 +1,13 @@
 import React from "react"
-import './style.styl'
 import Navbar from "../Navbar/index"
 import Footer from "../Footer/index"
+
+import "./style.styl"
 
 export default function Layout(props) {
   return (
     <>
-      <Navbar />
+      <Navbar lang={props.lang} />
       <main>
         
         {props.children}

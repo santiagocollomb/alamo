@@ -8,7 +8,6 @@ export default function ContactIcons() {
       className="contact-info"
       data-sal="slide-up"
       data-sal-easing="ease"
-      data-sal-delay="300"
     >
       <EmailIcons direction="row" />
 
